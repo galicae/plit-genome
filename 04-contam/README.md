@@ -340,3 +340,6 @@ Finally, we used the outputs of this notebook to filter out the contamination fr
 
 - [filter_draft.ipynb](filter_draft.ipynb)
 
+#### 3. Gene prediction
+
+(see [genome annotation](../06-annotation/README.md) code)
