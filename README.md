@@ -1,5 +1,7 @@
 # The _Pycnogonum litorale_ (Strøm, 1762) draft genome
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14188290.svg)](https://doi.org/10.5281/zenodo.14188290)
+
 This repository contains the computational analysis for the P. litorale draft genome manuscript. The
 code is split up by task, and should roughly correspond to the respective "Materials and Methods"
 sections of the manuscript.
