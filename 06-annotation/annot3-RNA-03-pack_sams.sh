@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+FILTER=/lisc/user/papadopoulos/repos/pycno-seq/annotate/annot3-RNA-03-pack_sam.sh
+
+OUT=/lisc/scratch/zoology/pycnogonum/genome/draft/transcriptome/
+
+EMBRYO3_OUT=$OUT/EMBRYO3/
+INSTAR1_OUT=$OUT/INSTAR1/
+INSTAR2_OUT=$OUT/INSTAR2/
+INSTAR3_OUT=$OUT/INSTAR3/
+INSTAR4_OUT=$OUT/INSTAR4/
+INSTAR5_OUT=$OUT/INSTAR5/
+INSTAR6_OUT=$OUT/INSTAR6/
+JUV1_OUT=$OUT/JUV1/
+SUBADULT_OUT=$OUT/SUBADULT/
+
+sbatch $FILTER $EMBRYO3_OUT
+sbatch $FILTER $INSTAR1_OUT
+sbatch $FILTER $INSTAR2_OUT
+sbatch $FILTER $INSTAR3_OUT
+sbatch $FILTER $INSTAR4_OUT
+sbatch $FILTER $INSTAR5_OUT
+sbatch $FILTER $INSTAR6_OUT
+sbatch $FILTER $JUV1_OUT
+sbatch $FILTER $SUBADULT_OUT
