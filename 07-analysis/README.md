@@ -19,6 +19,10 @@ pycnogonids. This notebook produced material for figure 4 and suppl. figure 3 of
 
 - [Exploring Hox genes](hoxfinder.ipynb)
 
+We also used other published Hox gene sequences to confirm our search results.
+
+- [Hox gene searches](genes.sh)
+
 ### EggNOG-mapper output
 
 A brief look at the functional annotation provided by EggNOG-mapper for the predicted pycnogonid
