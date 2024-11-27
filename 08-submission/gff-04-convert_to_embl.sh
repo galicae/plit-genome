@@ -3,8 +3,8 @@
 module load conda
 conda activate emblmygff3
 
-GENOME=/lisc/project/zoology/pycnogonum/paper/results/draft.fasta
-GFF=/lisc/project/zoology/pycnogonum/paper/results/merged_sorted_dedup.gff3
+GENOME=/lisc/project/zoology/pycnogonum/paper/zenodo/results/draft.fasta
+GFF=/lisc/scratch/zoology/pycnogonum/genome/submission/merged_sorted_named_dedup_filtered.gff3
 RESDIR=/lisc/scratch/zoology/pycnogonum/genome/submission
 
 cd $RESDIR || exit
@@ -20,3 +20,5 @@ EMBLmyGFF3 $GFF $GENOME \
         --project_id PRJEB80537 \
         -vvv \
         -o result.embl
+
+gzip result.embl
