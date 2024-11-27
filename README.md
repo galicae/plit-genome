@@ -16,5 +16,5 @@ sections of the manuscript.
    finding Hox genes, functional annotation with EggNOG-mapper.
 8. **Submission:** scripts to handle ENA submission.
 
-The project's raw data can be found on ENA under project ID [](). Additional (intermediate) results
-have been uploaded to Zenodo under the DOI [10.5281/zenodo.14185694](10.5281/zenodo.14185694).
+The project's raw data can be found on ENA under project accession [PRJEB80537](). Additional (intermediate) results
+have been uploaded to Zenodo under the DOI [10.5281/zenodo.14185694](https://zenodo.org/records/14185694).
