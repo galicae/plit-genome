@@ -6,6 +6,8 @@ module load java
 
 MODE=$1 # either -validate or -submit
 
+cd /lisc/scratch/zoology/pycnogonum/genome/submission || exit
+
 java -jar ~/bin/webin-cli-8.0.0.jar \
     -context genome \
     -userName Webin-68127 \
