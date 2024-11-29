@@ -28,6 +28,7 @@ FLAGGED=./merged_sorted_named_dedup_flagged.gff3
 
 # first remove duplicate features
 agat_sp_fix_features_locations_duplicated.pl --gff $GFF -o $DEDUP
+sed -i 's/,\"\"//g' $DEDUP # remove the weird ,"" that appears after the ID for PacBio genes
 
 # flag short introns, according to https://www.biostars.org/p/374618/
 # The NCBI documentation suggests to use the pseudo=True tag for genes that are broken in some way
