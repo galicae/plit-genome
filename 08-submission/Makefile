@@ -18,5 +18,8 @@ validate:
 submit:
 	bash gff-05-submit_to_ENA.sh -submit
 
-all: compose annotate conform embl validate 2>&1 | tee log.txt
+test:
+	bash gff-05-submit_to_ENA.sh -submit -test
+
+all: compose annotate conform embl validate
 	@echo Done.
