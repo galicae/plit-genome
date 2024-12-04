@@ -9,6 +9,9 @@ RESDIR=/lisc/scratch/zoology/pycnogonum/genome/submission
 
 cd $RESDIR || exit
 
+# first run EMBLmyGFF3 --expose-translations
+# and edit translation_gff_feature_to_embl_feature.json to include "remove": true for exons
+
 EMBLmyGFF3 $GFF $GENOME \
         --topology linear \
         --molecule_type 'genomic DNA' \
