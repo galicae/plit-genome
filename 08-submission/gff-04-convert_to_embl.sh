@@ -23,4 +23,6 @@ EMBLmyGFF3 $GFF $GENOME \
         -v \
         -o result.embl
 
-gzip result.embl
+# when zipping: overwrite file if it already exists,
+# else the command will hang while waiting for confirmation
+gzip -f result.embl
