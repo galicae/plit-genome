@@ -19,7 +19,7 @@ submit:
 	bash gff-05-submit_to_ENA.sh -submit
 
 test:
-	bash gff-05-submit_to_ENA.sh -submit -test
+	bash gff-05-submit_to_ENA.sh -test
 
-all: compose annotate conform embl validate
+all: compose annotate conform embl test
 	@echo Done.
